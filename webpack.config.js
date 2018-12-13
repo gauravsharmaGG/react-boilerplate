@@ -10,6 +10,7 @@ const WebpackDevServerUrl = 'http://localhost:8080';
 
 module.exports = {
   entry: path.resolve(__dirname, 'src') + '/index.js',
+  devtool: 'source-map',
   module: {
     rules: [
       {
